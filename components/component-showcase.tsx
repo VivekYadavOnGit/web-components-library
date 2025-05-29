@@ -462,9 +462,15 @@ export function ComponentShowcase() {
         </div>
 
         <div className="flex justify-center gap-4 mt-6">
-          <Button variant="default" className="gap-2">
-            <Github className="h-4 w-4" />
-            View on GitHub
+          <Button asChild variant="default" className="gap-2">
+            <a
+              href="https://github.com/VivekYadavOnGit/web-components-library"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github className="h-4 w-4" />
+              View on GitHub
+            </a>
           </Button>
           <Button variant="outline" className="gap-2">
             <ExternalLink className="h-4 w-4" />
